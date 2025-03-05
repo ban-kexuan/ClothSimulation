@@ -46,7 +46,7 @@
 
 - vellumsolver中可以设置解算的迭代次数，迭代次数越多，效果越好，越不容易穿模，但带来的计算时间也是越大的。可以增加风力，摩擦力等等。以及设置布料自碰撞与人物模型碰撞等相关参数。
 
-下一步！uv。
+**下一步！uv。**
 
 可以把外套和裙摆划分为两个组，在分材质的时候会比较方便。
 
@@ -55,3 +55,10 @@ uv的问题折磨了很久，不容易导出来了，发现只有unity可以识�
 之后使用clean结点将不用的信息删除，filecache--ropabc！结束！
 
 另外，这类的解算的结果如果使用FBX是没有动画的，貌似是因为只有点动画，当前 也只有3dsmax才能识别到动画，其他软件都不可以。即使用3dsmax再导出也不可以。  或许houdini直接导入ue/unity才是最省事的。
+
+UE的部分后面补。
+
+**参考：**
+
+[1]`https://www.youtube.com/watch?v=2sbBe9Q3PSY&list=PLxulC2YZYmuumyrtKM8SOdR7O_A0PJFGx&index=9`
+[2]`https://www.bilibili.com/video/BV1ru411m7nP/?spm_id_from=333.337.search-card.all.click`
